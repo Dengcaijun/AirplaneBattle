@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>飞机大战</title>
+    <style type="text/css">
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    .gamebox{
+    	width: 320px;
+    	height:568px;
+    	background: url(img/background.png) repeat-y;
+    	margin:20px auto;
+    	position: relative;
+    	cursor: none;
+    	overflow: hidden;
+    }
+    .gamebox span{
+    	position: absolute;
+    	right:10px;
+    	top:10px;
+    }
+    .gamebox span em{
+    	font-style: normal;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="gamebox">
+    	<span>分数：<em>0</em></span>
+    </div>
+    <script type="text/javascript" src="plane.js"></script>
+</body>
+
+</html>
